@@ -1,0 +1,14 @@
+version: '3.9'
+
+name: piggery-docker
+
+environment:
+  - COMPOSE_PROFILES=auto
+
+services:
+  automatic:
+    extends: 
+      file: ./stable-diffusion-webui-docker/docker-compose.yml
+      service: auto
+    environment:
+      - CLI_ARGS=--allow-code --medvram --xformers --enable-insecure-extension-access --api --cors-allow-origins=* --listen
