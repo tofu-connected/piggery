@@ -1,3 +1,9 @@
 [submodule "stable-diffusion-webui-docker"]
 	path = stable-diffusion-webui-docker
 	url = https://github.com/AbdBarho/stable-diffusion-webui-docker.git
+[submodule "hyperpig"]
+	path = hyperpig
+	url = https://github.com/tofu-connected/hyperpig.git
+[submodule "backpig"]
+	path = backpig
+	url = https://github.com/tofu-connected/backpig.git
